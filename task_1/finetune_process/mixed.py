@@ -8,9 +8,6 @@ from transformers import AutoTokenizer, AutoModel
 from transformers import BertTokenizer, BertModel
 from transformers import AutoTokenizer, AutoModel
 
-#hfl/chinese-electra-large-generator
-
-
 try:
     from apex.parallel import DistributedDataParallel as DDP
     from apex.fp16_utils import *
